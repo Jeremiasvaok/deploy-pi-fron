@@ -108,12 +108,12 @@ let orderZ= (e) =>{
        className='Boton'
        value='DATEBASE'
        onClick={(e) => filterBy(e)}
-      >perros creados</button>
+      >Dogs created</button>
       <button
       className='Boton'
       value='ALL'
       onClick={(e) => allDogss(e)}
-      >todos los peroos</button>
+      > All the dogs</button>
         </div>
 
         <div className='contenedor-temperament'>
