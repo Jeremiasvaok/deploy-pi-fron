@@ -17,7 +17,6 @@ export default function SearchBar(){
     const handleChange = e =>{
             e.preventDefault();
             setInput(e.target.value)
-            console.log(input)
         }
     return(
     <div className='contenedor-ser'>

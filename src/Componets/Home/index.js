@@ -22,7 +22,6 @@ export default function Home() {
   const [order, setOrder] = useState("");
 
   const allDogs = useSelector((state) => state.dogs);
-  console.log('longitud de dogs',allDogs)
   const allTemperaments = useSelector((state) => state.temperaments);
   //-PAGINADO----------------------------------------
   const [page, setPage] = useState(1);
@@ -30,9 +29,7 @@ export default function Home() {
   const indexOfLastDog = page * dogsPerPage;
   const indexOfFirstDog = indexOfLastDog - dogsPerPage;
   const currentDogs = allDogs.slice(indexOfFirstDog, indexOfLastDog);
-  console.log("curremDogs",currentDogs)
   const maximo = allDogs.length / dogsPerPage
-  console.log("maximo", maximo)
   const paginado = (pageNumber) => {
     setPage(pageNumber);
   };
