@@ -1,0 +1,47 @@
+body{
+    background-image:  url(../../image/imagem-body.jpg); 
+
+} 
+.grid-text{
+    margin-top: 250px;
+}
+
+.grid_title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    height: 100%;
+    font-size: 50px;
+    background: linear-gradient( #5f3f2d,
+    #f3b666);
+    background-clip: text;
+    color: transparent;  
+
+}
+
+.grid_title--trasform{
+    padding: 14px 57px 14px 57px;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    cursor:pointer;
+    background: linear-gradient( 60deg,
+    #72503d,
+    #f3b666
+    );
+    border-image-source: linear-gradient(
+        #72503d,
+        #f3b666
+    );
+}
+.grid_title--trasform:hover{
+    background: linear-gradient( 60deg,
+    #b34607,
+    #f3b666);
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(
+        #b34607,
+        #f3b666
+    );
+
+}
