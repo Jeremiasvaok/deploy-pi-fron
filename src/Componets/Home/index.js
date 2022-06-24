@@ -98,7 +98,7 @@ let orderZ= (e) =>{
       onClick={(e)=> orderZ(e)}
       >Z a A</button>
         <select className='selectt' onChange={(e) => handleSortWeight(e)}>
-            <option value="" disabled >
+            <option value="" disabled selected>
               Order by weight
             </option>
             <option value="weightasc">Heavier</option>
@@ -120,7 +120,7 @@ let orderZ= (e) =>{
           <select
             className='selectt'
             onChange={(e) => handleFilterByTemperament(e)}>
-            <option value="" disabled >
+            <option value="" disabled selected>
               Filter by temperament
             </option>
             <option value="all">All</option>

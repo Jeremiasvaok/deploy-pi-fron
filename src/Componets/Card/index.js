@@ -8,7 +8,7 @@ export default function Card({name,id, img, temperament, weight_min, weight_max}
             <p className="Card-nombre">Race: {name}</p>
             <img className="Card-img" src={img} alt='dogs'/>
             <p className="Card-temperament">Temperamensts: {temperament}</p>
-            <p className='Card-weight'>Weight:{weight_min} - {weight_max}kg.</p>
+            <p className='Card-weight'>Weight: {weight_min} - {weight_max}kg.</p>
             <Link to={`/dogs/${id}`}>
                 <button className='button-detalle'>Details the dog</button>
             </Link>
