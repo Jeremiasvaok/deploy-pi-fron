@@ -12,7 +12,7 @@ export default function Paginacion({ pageNumber, maximo }){
             <ul className="contenedor-paginas">{
                  pageNumber && pagesNumber.map((number) =>{
                      return(
-                    <li className="contenedor-numeros"
+                    <li  className={page === number ? 'active' : "contenedor-numeros" }
                         key={number}
                         onClick={() => pageNumber(number)}>
                         {number}
